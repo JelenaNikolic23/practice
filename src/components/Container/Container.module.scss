@@ -1,0 +1,13 @@
+h3{
+  font-size: 40px;
+  text-align: center;
+  background: var(--back);
+}
+.container {
+  min-height: calc(100vh - 97.5px);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-gap: 100px;
+  padding: 50px;
+  background: var(--back);
+}

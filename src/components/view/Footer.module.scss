@@ -1,0 +1,11 @@
+.footer {
+  background: var(--back);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  p {
+    color: var(--text);
+  }
+}

@@ -1,0 +1,45 @@
+.card {
+  border: 2px solid;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+  background: #F8F8F8;
+
+  h1{
+    border-radius: 50%;
+    border: 0.2em solid black;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+
+  }
+
+  .left {
+    display: flex;
+
+   }
+
+  .right {
+
+    h2 {
+      font-size: 20px;
+      position: relative;
+      display: flex;
+      padding: 5px;
+      right: -40px;
+      top: -32px;
+    }
+
+    p {
+      margin-right: 5px;
+      margin-left: 45px;
+      margin-top: -20px;
+    }
+
+  }
+
+}
